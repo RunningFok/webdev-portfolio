@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Barriecito&display=swap");
+
+body {
+  margin: 0px;
+  height: 100vh;
+  width: 100%;
+}
+
+#about {
+  font-family: "Barriecito", cursive;
+  font-size: 3em;
+  // padding-top: 20vh;
+}
+
+#description {
+  text-align: start;
+  vertical-align: middle;
+  font-size: 0.8em;
+  line-height: 1.5;
+  color: #102c57;
+  font-family: monospace;
+  margin: 0;
+  overflow-x: hidden;
+  // padding-left: 20vw;
+  // padding-right: 20vw;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+    // transform: translateX(calc(-5em * 16));
+  }
+}
+
+#program-title {
+  font-family: monospace;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.programs {
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 90vw;
+  justify-content: center;
+  position: relative;
+  width: 200%;
+  height: 8em;
+  padding-top: 3em;
+  margin: 0;
+  perspective: 100em;
+}
+
+.program-list {
+  display: inline-block;
+  animation: slide 20s linear infinite;
+  perspective: 100px;
+}
+
+.programs:hover .program-list {
+  animation-play-state: paused;
+}
+
+@media only screen and (min-width: 768px) {
+  #description {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  #description {
+    font-size: 1.5em;
+  }
+}
