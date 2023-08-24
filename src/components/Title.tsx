@@ -76,7 +76,7 @@ export default function Title() {
     <div className="container">
       <AnimatePresence>
         <motion.div
-        id="home"
+          id="home"
           initial={"hidden"}
           // animate={inView ? "visible" : "hidden"}
           animate={"visible"}

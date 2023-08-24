@@ -37,21 +37,16 @@ import {
   Stripe,
 } from "./ProgramIcons";
 
-const aboutVariants3: Variants = {
-  hidden: { opacity: 0, y: 75 },
-  visible: { opacity: 1, y: 0 },
-};
-
 const aboutVariants: Variants = {
   hidden: {
     x: "50vw",
-    y: 0,
+    // y: 0,
     opacity: 0,
     width: "0%",
   },
   visible: {
     x: "0vw",
-    y: 75,
+    // y: 75,
     opacity: 1,
     width: "80vw",
     transition: {
@@ -63,12 +58,52 @@ const aboutVariants: Variants = {
   },
 };
 
-const aboutVariants2: Variants = {
-  hidden: { left: 0 },
-  visible: { left: "100%" },
+const contentVariants: Variants = {
+  hidden: {
+    x: "50vw",
+    // y: 0,
+    opacity: 0,
+    width: "0%",
+  },
+  visible: {
+    x: "0vw",
+    // y: 75,
+    opacity: 1,
+    width: "80vw",
+    transition: {
+      type: "all",
+      bounce: 0.4,
+      duration: 2,
+    },
+  },
 };
+
+const techVariants: Variants = {
+  hidden: {
+    x: "50vw",
+    // y: 0,
+    opacity: 0,
+    width: "0%",
+  },
+  visible: {
+    x: "0vw",
+    // y: 75,
+    opacity: 1,
+    width: "80vw",
+    transition: {
+      type: "all",
+      bounce: 0.4,
+      duration: 2,
+      delay: 0.5,
+    },
+  },
+};
+
 export default function About() {
   const programList = [
+    <Stripe />,
+    <Sass />,
+    <Tailwind />,
     <Typescript />,
     <Javascript />,
     <Python />,
@@ -82,21 +117,18 @@ export default function About() {
     <Prisma />,
     <MongoDB />,
     <MySQL />,
-    <Stripe />,
-    <Sass />,
-    <Tailwind />,
   ];
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   const animationControl = useAnimation();
-  const animationControl2 = useAnimation();
-  const animationControl3 = useAnimation();
+  const contentControl = useAnimation();
+  const techControl = useAnimation();
 
   useEffect(() => {
     if (isInView) {
       animationControl.start("visible");
-      animationControl2.start("visible");
-      animationControl3.start("visible");
+      contentControl.start("visible");
+      techControl.start("visible");
     }
   }, [isInView]);
 
@@ -108,24 +140,27 @@ export default function About() {
         initial={"hidden"}
         animate={animationControl}
         transition={{
+          when: "beforeChildren",
           type: "all",
           bounce: 0.4,
           duration: 2,
-          delay: 0.5,
+          delayChildren: 0.5,
+          staggerDirection: -1,
         }}
-        style={{ position: "relative" }}
       >
-        {/* <motion.div
-        ref={ref}
-        variants={aboutVariants3}
-        initial={"hidden"}
-        animate={animationControl3}
-        transition={{ duration: 0.5, delay: 0.25 }}
-        style={{ position: "relative", overflow: "hidden" }}
-      > */}
-        <h1 id="about">About</h1>
+        <h1 id="about">Hello</h1>
 
-        <div id="description">
+        <motion.div
+          id="description"
+          variants={contentVariants}
+          initial={"hidden"}
+          animate={contentControl}
+          transition={{
+            type: "all",
+            bounce: 0.4,
+            duration: 2,
+          }}
+        >
           <p>
             "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
@@ -135,27 +170,23 @@ export default function About() {
             eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
             qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
           </p>
-        </div>
-        <div className="programs">
+        </motion.div>
+        <motion.div
+          className="programs"
+          variants={techVariants}
+          initial={"hidden"}
+          animate={techControl}
+          transition={{
+            type: "all",
+            bounce: 0.4,
+            duration: 1,
+          }}
+        >
           <h1 id="program-title">List of techs used </h1>
           <div className="program-list">{programList}</div>
           <div className="program-list">{programList}</div>
-        </div>
+        </motion.div>
       </motion.div>
-      {/* <motion.div
-        variants={aboutVariants2}
-        initial={"hidden"}
-        animate={animationControl2}
-        transition={{ duration: 0.5, ease: "easeIn" }}
-        style={{
-          top: 4,
-          bottom: 4,
-          left: 0,
-          right: 0,
-          background: "#102c57",
-          zIndex: 20,
-        }}
-      /> */}
     </div>
   );
 }

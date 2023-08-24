@@ -9,7 +9,7 @@ body {
 #about {
   font-family: "Barriecito", cursive;
   font-size: 3em;
-  // padding-top: 20vh;
+  padding-top: 5vh;
 }
 
 #description {
@@ -21,8 +21,6 @@ body {
   font-family: monospace;
   margin: 0;
   overflow-x: hidden;
-  // padding-left: 20vw;
-  // padding-right: 20vw;
 }
 
 @keyframes slide {
@@ -48,8 +46,8 @@ body {
   justify-content: center;
   position: relative;
   width: 200%;
-  height: 8em;
-  padding-top: 3em;
+  height: 100%;
+  padding-top: 2.5em;
   margin: 0;
   perspective: 100em;
 }
@@ -65,6 +63,9 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
+  #about{
+    padding-top: 10vh;
+  }
   #description {
     font-size: 1.5em;
   }
