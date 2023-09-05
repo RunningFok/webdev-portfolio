@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Barriecito&display=swap");
+
+body {
+  margin: 0px;
+  // min-height: 100vh;
+  height: 100vh;
+  width: 100%;
+  // max-height: max-content;
+}
+
+#projects {
+  // height: 100vh;
+  margin-top: 10%;
+}
+
+#projects-title {
+  font-family: "Barriecito", cursive;
+  font-size: 2em;
+  padding-top: 10vh;
+  margin-bottom:0vh;
+  display: block;
+  overflow: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  #projects {
+    margin-top: 10vh;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  #projects {
+    padding-top: 8vh;
+  }
+  #projects-title {
+    padding-top: 0vh;
+    font-size: 2.5em;
+  }
+  #profile-pic {
+    width: 15em;
+  }
+  #name {
+    font-size: 4em;
+  }
+  #job {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 1530px) {
+  #projects {
+    padding-top: 20vh;
+    margin-top: 0vh;
+  }
+  #projects-title {
+    margin-top: 0vh;
+    padding-top: 0vh;
+    font-size: 3em;
+  }
+}

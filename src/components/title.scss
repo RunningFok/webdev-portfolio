@@ -3,10 +3,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barriecito&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Handjet:wght@600&display=swap");
+
 body {
   margin: 0px;
+  min-height: 100vh;
   height: 100vh;
   width: 100vw;
+}
+#home {
+  min-height: 100vh;
+}
+
+#profile-pic-speech-container {
+  display: flex;
+  flex-direction: row;
+  place-content: center;
 }
 
 #profile-pic-container {

@@ -1,4 +1,4 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 body {
@@ -20,17 +20,24 @@ body {
 .container {
   overflow: hidden;
   margin: auto;
-  height: 100vh;
+  // height: 100vh;
+  height: max-content;
+  // max-height: fit-content;
   width: 80vw;
   justify-content: center;
   align-items: center;
 }
-
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1080px) {
+  .container{
+    width: 85vw;
+  }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1530px) {
+  .container{
+    width: 85vw;
+  }
 }

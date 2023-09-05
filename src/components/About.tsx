@@ -48,32 +48,31 @@ const aboutVariants: Variants = {
     x: "0vw",
     // y: 75,
     opacity: 1,
-    width: "80vw",
+    width: "85vw",
     transition: {
       type: "all",
       bounce: 0.4,
-      duration: 2,
-      delay: 0.5,
+      duration: 1,
     },
   },
 };
 
 const contentVariants: Variants = {
   hidden: {
-    x: "50vw",
-    // y: 0,
     opacity: 0,
-    width: "0%",
+    x: "50vw",
+    // width: "0%",
   },
   visible: {
+    opacity: 1,
     x: "0vw",
     // y: 75,
-    opacity: 1,
-    width: "80vw",
+    // width: "85vw",
     transition: {
       type: "all",
       bounce: 0.4,
-      duration: 2,
+      duration: 1,
+      delay: 0.2,
     },
   },
 };
@@ -89,12 +88,12 @@ const techVariants: Variants = {
     x: "0vw",
     // y: 75,
     opacity: 1,
-    width: "80vw",
+    width: "85vw",
     transition: {
       type: "all",
       bounce: 0.4,
-      duration: 2,
-      delay: 0.5,
+      duration: 1,
+      delay: 0.4,
     },
   },
 };
@@ -133,59 +132,43 @@ export default function About() {
   }, [isInView]);
 
   return (
-    <div className="container">
+    <div className="container" id="about">
       <motion.div
         ref={ref}
         variants={aboutVariants}
         initial={"hidden"}
         animate={animationControl}
+      >
+        <h1 id="hello">Hello</h1>
+      </motion.div>
+      <motion.p
+        id="description"
+        variants={contentVariants}
+        initial={"hidden"}
+        animate={contentControl}
+      >
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+        illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+        explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+        odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+        voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+        quia dolor sit amet, consectetur, adipisci velit.
+      </motion.p>
+      <motion.div
+        className="programs"
+        variants={techVariants}
+        initial={"hidden"}
+        animate={techControl}
         transition={{
-          when: "beforeChildren",
           type: "all",
           bounce: 0.4,
-          duration: 2,
-          delayChildren: 0.5,
-          staggerDirection: -1,
+          duration: 1,
         }}
       >
-        <h1 id="about">Hello</h1>
-
-        <motion.div
-          id="description"
-          variants={contentVariants}
-          initial={"hidden"}
-          animate={contentControl}
-          transition={{
-            type: "all",
-            bounce: 0.4,
-            duration: 2,
-          }}
-        >
-          <p>
-            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-            eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-            qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-          </p>
-        </motion.div>
-        <motion.div
-          className="programs"
-          variants={techVariants}
-          initial={"hidden"}
-          animate={techControl}
-          transition={{
-            type: "all",
-            bounce: 0.4,
-            duration: 1,
-          }}
-        >
-          <h1 id="program-title">List of techs used </h1>
-          <div className="program-list">{programList}</div>
-          <div className="program-list">{programList}</div>
-        </motion.div>
+        <h1 id="program-title">List of techs </h1>
+        <div className="program-list">{programList}</div>
+        <div className="program-list">{programList}</div>
       </motion.div>
     </div>
   );

@@ -18,9 +18,9 @@ const navbarVariants = {
 
 const linkVariants = {
   hover: {
-    scale: 1.5,
+    scale: 1.2,
     transition: {
-      duration: 0.3,
+      duration: 0.2,
       ease: "easeInOut",
     },
   },
@@ -57,6 +57,7 @@ export default function Navbar() {
               className="link"
               variants={linkVariants}
               whileHover={"hover"}
+              href="#projects"
             >
               Projects
             </motion.a>
@@ -64,6 +65,8 @@ export default function Navbar() {
               className="link"
               variants={linkVariants}
               whileHover={"hover"}
+              href="#contact"
+
             >
               Contact
             </motion.a>

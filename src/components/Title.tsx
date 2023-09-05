@@ -1,5 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import "./title.scss";
+import Contact from "./Contact";
 
 const titleNameVariants = {
   hidden: { opacity: 0, y: "-100%" },
@@ -11,7 +12,6 @@ const titleNameVariants = {
       stiffness: 120,
       mass: 0.4,
       damping: 6,
-      when: "beforeChildren",
       delay: 1,
       duration: 0.3,
     },
@@ -28,22 +28,23 @@ const titleRoleVariants = {
       stiffness: 80,
       mass: 0.4,
       damping: 8,
+      delay: 1.8,
       duration: 0.3,
     },
   },
 };
 const titlePicVariants = {
-  hidden: { opacity: 0, y: "10%" },
+  hidden: { opacity: 0, y: "20%" },
   visible: {
     opacity: 1,
     y: 0,
     transition: {
-      type: "spring",
-      stiffness: 80,
-      mass: 0.4,
-      damping: 8,
-      duration: 0.3,
-      delay: 0.7,
+      type: "all",
+      // stiffness: 80,
+      // mass: 0.4,
+      // damping: 8,
+      duration: 0.5,
+      delay: 2.5,
     },
   },
 };
@@ -73,27 +74,33 @@ const MockProfile2 = () => {
 
 export default function Title() {
   return (
-    <div className="container">
-      <AnimatePresence>
+    <div className="container" id="home">
+      <div>
         <motion.div
-          id="home"
+          id="profile-pic-container"
+          variants={titlePicVariants}
           initial={"hidden"}
-          // animate={inView ? "visible" : "hidden"}
           animate={"visible"}
-          // exit={"hidden"}
-          variants={titleNameVariants}
-
-          // ref={ref}
         >
-          <motion.div id="profile-pic-container" variants={titlePicVariants}>
-            <MockProfile2 />
-          </motion.div>
-          <h1 id="name">adrian fok</h1>
-          <motion.h2 id="job" variants={titleRoleVariants}>
-            Fullstack Developer
-          </motion.h2>
+          <MockProfile2 />
         </motion.div>
-      </AnimatePresence>
+      </div>
+
+      <motion.div
+        variants={titleNameVariants}
+        initial={"hidden"}
+        animate={"visible"}
+      >
+        <h1 id="name">adrian fok</h1>
+      </motion.div>
+      <motion.h2
+        id="job"
+        variants={titleRoleVariants}
+        initial={"hidden"}
+        animate={"visible"}
+      >
+        Fullstack Developer
+      </motion.h2>
     </div>
   );
 }

@@ -1,0 +1,21 @@
+.footer {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  place-content: center;
+  background-color: #102c57;
+}
+
+.contact {
+  display: flex;
+  place-items: center;
+  font-family: monospace;
+  font-size: 1em;
+  color: #eff5f5;
+}
+
+@media only screen and (min-width: 1080px) {
+  .footer {
+    height: 30vh;
+  }
+}

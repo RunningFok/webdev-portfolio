@@ -7,9 +7,13 @@ body {
 }
 
 #about {
+  height: 80vh;
+  padding-top: 10vh;
+}
+
+#hello {
   font-family: "Barriecito", cursive;
-  font-size: 3em;
-  padding-top: 5vh;
+  font-size: 2em;
 }
 
 #description {
@@ -35,7 +39,7 @@ body {
 
 #program-title {
   font-family: monospace;
-  font-size: 1.5em;
+  font-size: 1em;
   margin: 0;
 }
 
@@ -46,7 +50,7 @@ body {
   justify-content: center;
   position: relative;
   width: 200%;
-  height: 100%;
+  height: auto;
   padding-top: 2.5em;
   margin: 0;
   perspective: 100em;
@@ -63,8 +67,12 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-  #about{
+  #about {
+    height: 100vh;
     padding-top: 10vh;
+  }
+  #program-title {
+    font-size: 1.5em;
   }
   #description {
     font-size: 1.5em;
@@ -72,7 +80,21 @@ body {
 }
 
 @media only screen and (min-width: 1080px) {
+  #hello {
+    font-size: 2.5em;
+  }
   #description {
     font-size: 1.5em;
+  }
+  #about {
+    height: 80vh;
+    padding-top: 10vh;
+  }
+}
+
+@media only screen and (min-width: 1530px) {
+  #about {
+    height: 80vh;
+    padding-top: 20vh;
   }
 }

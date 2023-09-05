@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Barriecito&display=swap");
+
+body {
+  margin: 0px;
+  min-height: 100vh;
+  height: 100vh;
+}
+
+#contact {
+  min-height: 40vh;
+  padding-top: 10vh;
+}
+
+.contact-button-section {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  align-items: center;
+}
+
+.contact-button {
+  font-family: monospace;
+  color: #102c57;
+  font-size: 2em;
+  font-weight: 550;
+}
+
+.contacts-section {
+  display: flex;
+  flex-direction: row;
+  padding-top: 8vh;
+  width: 80vw;
+  justify-content: space-around;
+}
+
+#mail-section {
+  padding-top: 1.5em;
+  position: relative;
+  outline: none;
+}
+
+#mail-section button {
+  background-color: #eff5f5;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#mail-section button:active {
+}
+
+#mail-section button:before {
+  content: "Email Copied";
+  font-family: monospace;
+  font-weight: 600;
+  color: #eff5f5;
+  position: absolute;
+  top: -50px;
+  right: 10px;
+  background: #102c57;
+  padding: 8px 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  display: none;
+}
+#mail-section button:after {
+  content: "";
+  position: absolute;
+  top: -7px;
+  right: 50px;
+  width: 12px;
+  height: 12px;
+  background: #102c57;
+  transform: rotate(45deg);
+  display: none;
+}
+#mail-section.active button:before,
+#mail-section.active button:after {
+  display: block;
+}
+
+#github-section {
+  padding-top: 1.5em;
+  cursor: pointer;
+}
+
+#github-section button {
+  background-color: #eff5f5;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-icon {
+  width: 3em;
+  height: 3em;
+  color: Transparent;
+}
+
+@media only screen and (min-width: 1080px) {
+  #contact {
+    padding-top: 15vh;
+    padding-bottom: 10vh;
+  }
+
+  .contact-button {
+    font-size: 3em;
+  }
+  .contact-icon {
+    width: 4em;
+    height: 4em;
+  }
+}
+
+@media only screen and (min-width: 1530px) {
+  .contact-button {
+    font-size: 3.5em;
+  }
+  .contact-icon {
+    width: 5em;
+    height: 5em;
+  }
+}
