@@ -141,11 +141,8 @@ export const Vite = () => {
   return (
     <motion.svg
       xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
       aria-hidden="true"
       role="img"
-      class="iconify iconify--logos"
-      preserveAspectRatio="xMidYMid meet"
       viewBox="0 0 256 257"
       className="icon"
       variants={iconVariants}
@@ -389,7 +386,6 @@ export const Stripe = () => {
   return (
     <motion.svg
       xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
       viewBox="0 -149 512 512"
       className="icon"
       version="1.1"
@@ -426,7 +422,6 @@ export const Vercel = () => {
   return (
     <motion.svg
       xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
       viewBox="0 -198 512 512"
       version="1.1"
       preserveAspectRatio="xMidYMid"

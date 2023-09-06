@@ -7,14 +7,8 @@ import {
   motion,
   useAnimation,
   useInView,
-  useScroll,
-  useSpring,
-  useTransform,
-  useMotionValue,
-  useVelocity,
-  useAnimationFrame,
+
   Variants,
-  color,
 } from "framer-motion";
 
 import {

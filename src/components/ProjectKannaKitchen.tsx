@@ -13,7 +13,6 @@ import {
   MongoDB,
   Nextjs,
   Vercel,
-  Link,
   ArrowLink,
 } from "./ProgramIcons";
 import "./project.scss";

@@ -1,6 +1,5 @@
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import "./title.scss";
-import Contact from "./Contact";
 
 const titleNameVariants = {
   hidden: { opacity: 0, y: "-100%" },
