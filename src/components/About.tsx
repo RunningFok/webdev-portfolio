@@ -137,7 +137,9 @@ export default function About() {
         initial={"hidden"}
         animate={contentControl}
       >
-        I am a self taught bug creator.
+        I am a self taught developer with the ability to summon bugs at will.<br />
+        {/* Currently I am create a e-commerce site for my friend's active wear brand. <br /> */}
+        Hello Yukiko Kanna, who is my sweet babaye and not an imaginary monkey.
       </motion.p>
       <motion.div
         className="programs"
