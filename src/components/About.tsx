@@ -3,13 +3,7 @@ import "./ProgramIcons";
 import { useEffect, useRef } from "react";
 // import { useInView } from "react-intersection-observer";
 
-import {
-  motion,
-  useAnimation,
-  useInView,
-
-  Variants,
-} from "framer-motion";
+import { motion, useAnimation, useInView, Variants } from "framer-motion";
 
 import {
   Typescript,
@@ -28,6 +22,7 @@ import {
   // PostgreSQL,
   Prisma,
   Vercel,
+  Netlify,
   Stripe,
 } from "./ProgramIcons";
 
@@ -106,6 +101,7 @@ export default function About() {
     <Nextjs />,
     <GoogleCloud />,
     <Vercel />,
+    <Netlify />,
     <Firebase />,
     <Prisma />,
     <MongoDB />,
