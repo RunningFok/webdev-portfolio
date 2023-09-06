@@ -177,7 +177,7 @@ export default function ProjectChewout() {
           animate={titleControl}
           variants={titleVariants}
         >
-          #3 Chewout
+          #2 Chewout
         </motion.h1>
         <div className="project-contents">
           <motion.div
@@ -195,11 +195,13 @@ export default function ProjectChewout() {
               initial={"hidden"}
               animate={descriptiontControl}
             >
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo.
-            </motion.p>{" "}
+              A Timeout inspired travel blog on the lifely island of Cheung Chau
+              ("長洲"). The people are nice, food are great and no cars to honk
+              at you, 10/10 would recommend. <br />
+              There are three main categories of content you can explore on this
+              site: <b>things to do</b>, <b>food</b> and <b>hotels</b>. If you
+              do plan to travel to Cheung Chau do have a look for idea!
+            </motion.p>
             <motion.div
               variants={techsVariants}
               initial={"hidden"}
@@ -222,10 +224,9 @@ export default function ProjectChewout() {
             >
               <h1 className="project-notes">Notes</h1>
               <p className="notes">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo.
+                This is a dynamically responsive site hosted on Vercel, written
+                primarily on Typescript on NextJS with blog data stored on
+                Prisma mySQL.
               </p>
             </motion.div>
             <motion.div
@@ -238,7 +239,7 @@ export default function ProjectChewout() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <ArrowLink />{" "}
+                <ArrowLink />
               </a>
             </motion.div>
           </div>

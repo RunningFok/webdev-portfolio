@@ -46,8 +46,8 @@ export default function Projects() {
         Projects
       </motion.h1>
       <ProjectGoodKick />
-      <ProjectKannaKitchen />
       <ProjectChewout />
+      <ProjectKannaKitchen />
     </div>
   );
 }

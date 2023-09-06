@@ -191,10 +191,12 @@ export default function ProjectGoodKick() {
               initial={"hidden"}
               animate={descriptiontControl}
             >
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo.
+              GoodKick is a StockX and Amazon inspired E-Commerce site. Users
+              are able to login, search for products, purchase products, pay for
+              orders and view previous orders. This is a responsive site written
+              with Typescript on NextJS and hosted on Vercel. It fetches product
+              data off an API and store with client order information on
+              Firestore.
             </motion.p>
             <motion.div
               variants={techsVariants}
@@ -219,10 +221,11 @@ export default function ProjectGoodKick() {
             >
               <h1 className="project-notes">Notes</h1>
               <p className="notes">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo.
+                Users are able to login with preset email "test@test.com" with
+                password "123456". <br />
+                To finish with payment, provide imaginary email and address,
+                using the following test credit card number: "4242 4242 4242
+                4242", month: "04/24", cvc :"424"
               </p>
             </motion.div>
             <motion.div

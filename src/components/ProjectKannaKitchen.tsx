@@ -169,7 +169,7 @@ export default function ProjectKannaKitchen() {
           animate={titleControl}
           variants={titleVariants}
         >
-          #2 Kanna Kitchen
+          #3 Kanna Kitchen
         </motion.h1>
         <div className="project-contents">
           <motion.div
@@ -187,10 +187,11 @@ export default function ProjectKannaKitchen() {
               initial={"hidden"}
               animate={descriptiontControl}
             >
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo.
+              Kanna Kitchen is an awesome Japanese homefood restaurant in Cheung
+              Chau, which was also featured in the travel blog project. <br />
+              The community of Cheung Chau is tight knit with everyone knowing
+              this restuarant. The purpose of this site is therefore an online
+              menu for takeaway orders for the locals.
             </motion.p>
             <motion.div
               variants={techsVariants}
@@ -213,10 +214,8 @@ export default function ProjectKannaKitchen() {
             >
               <h1 className="project-notes">Notes</h1>
               <p className="notes">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo.
+                This is a simple responsive site written with Typescript on NextJS, it
+                is hosted on Vercel with store data on mongoDB.
               </p>
             </motion.div>
             <motion.div
