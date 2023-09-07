@@ -28,9 +28,9 @@
   padding-left: 0.5em;
   padding-right: 0.5em;
   user-select: none;
-  -moz-user-select: none; 
-         -webkit-text-select: none; 
-         -webkit-user-select: none; 
+  -moz-user-select: none;
+  -webkit-text-select: none;
+  -webkit-user-select: none;
 }
 
 .link button {
@@ -41,7 +41,6 @@
   border-style: none;
   background-color: #eff5f5;
   cursor: pointer;
-  -webkit-tap-highlight-color: #eff5f5;
 }
 
 @media only screen and (min-width: 768px) {
