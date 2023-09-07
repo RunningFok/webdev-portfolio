@@ -43,7 +43,7 @@ export default function Navbar() {
               whileHover={"hover"}
               href="#home"
             >
-              "/"
+              <button>Home</button>
             </motion.a>
             <motion.a
               className="link"
@@ -51,7 +51,7 @@ export default function Navbar() {
               whileHover={"hover"}
               href="#about"
             >
-              About
+              <button>About</button>
             </motion.a>
             <motion.a
               className="link"
@@ -59,16 +59,15 @@ export default function Navbar() {
               whileHover={"hover"}
               href="#projects"
             >
-              Projects
+              <button>Projects</button>
             </motion.a>
             <motion.a
               className="link"
               variants={linkVariants}
               whileHover={"hover"}
               href="#contact"
-
             >
-              Contact
+              <button>Contact</button>
             </motion.a>
           </ul>
         </motion.nav>

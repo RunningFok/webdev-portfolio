@@ -149,9 +149,11 @@ export default function About() {
         Having had the opportunity to work with people and atheletic expierence
         in a team has allowed me to gain insight into the needs of individuals
         and how to effectively work towards shared objectives.
+        
         <br />
         <br />
-        Hello 👋🏼 Yukiko Kanna, who is my sweet babaye and not an imaginary monkey 🐒.
+        Hello 👋🏼 Yukiko Kanna, who is my sweet babaye and not an imaginary
+        monkey 🐒.
       </motion.p>
       <motion.div
         className="programs"

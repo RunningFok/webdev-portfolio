@@ -192,11 +192,12 @@ export default function ProjectGoodKick() {
               animate={descriptiontControl}
             >
               GoodKick is a StockX and Amazon inspired E-Commerce site. Users
-              are able to login, search for products, purchase products, pay for
-              orders and view previous orders. This is a responsive site written
-              with Typescript on NextJS and hosted on Vercel. It fetches product
-              data off an API and store with client order information on
-              Firestore.
+              are able to login, search for products, add products to basket,
+              pay for products and view previous orders.
+              <br />
+              This is a responsive site written with Typescript on NextJS and
+              hosted on Vercel. It fetches product data off an API and store
+              with client order information on Firestore.
             </motion.p>
             <motion.div
               variants={techsVariants}

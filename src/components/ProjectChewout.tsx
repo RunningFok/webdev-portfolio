@@ -198,9 +198,9 @@ export default function ProjectChewout() {
               A Timeout inspired travel blog on the lifely island of Cheung Chau
               ("長洲"). The people are nice, food are great and no cars to honk
               at you, 10/10 would recommend. <br />
-              There are three main categories of content you can explore on this
+              There are three categories of content you can explore on this
               site: <b>things to do</b>, <b>food</b> and <b>hotels</b>. If you
-              do plan to travel to Cheung Chau do have a look for idea!
+              do plan to travel to Cheung Chau then do have a look for ideas!
             </motion.p>
             <motion.div
               variants={techsVariants}
@@ -224,7 +224,7 @@ export default function ProjectChewout() {
             >
               <h1 className="project-notes">Notes</h1>
               <p className="notes">
-                This is a dynamically responsive site hosted on Vercel, written
+                This is a responsive site hosted on Vercel, written
                 primarily on Typescript on NextJS with blog data stored on
                 Prisma mySQL.
               </p>
