@@ -1,8 +1,20 @@
 .project {
   font-family: monospace;
-  height: 100vh;
+  // height: 100vh;
   // padding-top: 10vh;
 }
+#goodKick {
+  height: 120vh;
+}
+
+#chewout {
+  height: 95vh;
+}
+
+#kannaKitchen {
+  height: 90vh;
+}
+
 .project-head {
   display: flex;
   flex-direction: row;
@@ -25,7 +37,7 @@
 .project-top {
   display: flex;
   flex-direction: column;
-  
+
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -36,6 +48,7 @@
 
 .project-description {
   font-size: 0.8em;
+  line-height: 1.4;
   color: #102c57;
 }
 .project-notes {
@@ -49,6 +62,7 @@
   padding-top: 2%;
   margin: 0%;
   font-size: 0.8em;
+  line-height: 1.4;
   color: #102c57;
 }
 
@@ -105,9 +119,18 @@
 }
 
 @media only screen and (min-width: 1080px) {
-  .project {
+  #goodKick {
+    height: 140vh;
+  }
+
+  #chewout {
+    height: 120vh;
+  }
+
+  #kannaKitchen {
     height: 110vh;
   }
+
   .project-name {
     font-size: 2em;
   }
@@ -192,7 +215,15 @@
 }
 
 @media only screen and (min-width: 1530px) {
-  .project {
+  #goodKick {
+    height: 100vh;
+  }
+
+  #chewout {
+    height: 80vh;
+  }
+
+  #kannaKitchen {
     height: 80vh;
   }
 

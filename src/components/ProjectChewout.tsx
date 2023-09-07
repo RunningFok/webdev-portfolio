@@ -127,7 +127,7 @@ export default function ProjectChewout() {
     target: chewRef,
     offset: ["start end", "end end"],
   });
-  const ImageY = useTransform(scrollYProgress, [0, 1], ["25vh", "-175vh"]);
+  const ImageY = useTransform(scrollYProgress, [0, 1], ["25vh", "-155vh"]);
 
   const textRef = useRef(null);
   const isInView = useInView(textRef, { once: true });
@@ -169,7 +169,7 @@ export default function ProjectChewout() {
   };
   return (
     <section>
-      <div className="project">
+      <div className="project" id="chewout">
         <motion.h1
           ref={textRef}
           className="project-name"

@@ -165,7 +165,7 @@ export default function ProjectGoodKick() {
 
   return (
     <section>
-      <div className="project">
+      <div className="project" id="goodKick">
         <motion.div
           ref={textRef}
           className="project-head"
@@ -224,20 +224,20 @@ export default function ProjectGoodKick() {
                 Users are able to login with preset account below.
                 <br />
                 <br />
-                Email: "test@test.com"
+                Email: test@test.com
                 <br />
-                Password: "123456"
+                Password: 123456
                 <br />
                 <br />
                 To finish with payment, provide an imaginary email and address,
                 using the following test credit card.
                 <br />
                 <br />
-                Card Number: "4242 4242 4242 4242"
+                Card Number: 4242 4242 4242 4242
                 <br />
-                Month: "04/24"
+                Month: 04/24
                 <br />
-                CVC :"424"
+                CVC: 424
               </p>
             </motion.div>
             <motion.div
