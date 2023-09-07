@@ -27,7 +27,10 @@
   padding-top: 1em;
   padding-left: 0.5em;
   padding-right: 0.5em;
-  -webkit-tap-highlight-color: #eff5f5;
+  user-select: none;
+  -moz-user-select: none; 
+         -webkit-text-select: none; 
+         -webkit-user-select: none; 
 }
 
 .link button {
