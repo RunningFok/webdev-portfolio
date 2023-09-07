@@ -41,8 +41,10 @@
   border-style: none;
   background-color: #eff5f5;
   cursor: pointer;
-  -webkit-tap-highlight-color: #eff5f5;
-}
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-text-select: none;
+  -webkit-user-select: none;}
 
 @media only screen and (min-width: 768px) {
   .link {
