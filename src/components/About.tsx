@@ -137,8 +137,16 @@ export default function About() {
         initial={"hidden"}
         animate={contentControl}
       >
-        I am a self taught developer with the ability to summon bugs at will.<br />
-        {/* Currently I am create a e-commerce site for my friend's active wear brand. <br /> */}
+        I build websites that provide a solution for a challenge.
+        <br />
+        As a developer, I am self-taught and specialize in constructing
+        interactive websites that operate seamlessly on multiple platforms and
+        devices.
+        <br />
+        The prospect of undertaking new projects is appealing as there is always
+        new problems to solve and new skills to learn.
+        <br />
+        <br/>
         Hello Yukiko Kanna, who is my sweet babaye and not an imaginary monkey.
       </motion.p>
       <motion.div

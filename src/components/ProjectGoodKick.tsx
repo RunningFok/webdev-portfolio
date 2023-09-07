@@ -221,11 +221,23 @@ export default function ProjectGoodKick() {
             >
               <h1 className="project-notes">Notes</h1>
               <p className="notes">
-                Users are able to login with preset email "test@test.com" with
-                password "123456". <br />
-                To finish with payment, provide imaginary email and address,
-                using the following test credit card number: "4242 4242 4242
-                4242", month: "04/24", cvc :"424"
+                Users are able to login with preset account below.
+                <br />
+                <br />
+                Email: "test@test.com"
+                <br />
+                Password: "123456"
+                <br />
+                <br />
+                To finish with payment, provide an imaginary email and address,
+                using the following test credit card.
+                <br />
+                <br />
+                Card Number: "4242 4242 4242 4242"
+                <br />
+                Month: "04/24"
+                <br />
+                CVC :"424"
               </p>
             </motion.div>
             <motion.div
