@@ -60,7 +60,7 @@ export default function ProjectForEverActive() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h1 className="project-name">#4 For-Ever Activewear</h1>
+          <h1 className="project-name">#4 FOR-EVER Active</h1>
         </motion.a>
         <div className="project-contents">
           <div className="project-left">
