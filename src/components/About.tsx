@@ -101,9 +101,9 @@ export default function About() {
     <Solidity />,
     <React />,
     <Vite />,
+    <Nextjs />,
     <NodeJS />,
     <Github />,
-    <Nextjs />,
     <GoogleCloud />,
     <Vercel />,
     <Netlify />,
@@ -151,7 +151,7 @@ export default function About() {
         <br />
         The prospect of undertaking new projects is appealing as there is always
         new problems to solve and new skills to learn.
-        <br />
+        <br />  
         Having had the opportunity to work with people and atheletic expierence
         in a team has allowed me to gain insight into the needs of individuals
         and how to effectively work towards shared objectives.
