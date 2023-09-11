@@ -170,15 +170,18 @@ export default function ProjectChewout() {
   return (
     <section>
       <div className="project" id="chewout">
-        <motion.h1
+        <motion.a
           ref={textRef}
-          className="project-name"
+          className="project-head"
           initial={"hidden"}
           animate={titleControl}
           variants={titleVariants}
+          href="https://travel-blog-cheung-chau.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          #2 Chewout
-        </motion.h1>
+          <h1 className="project-name">#2 Chewout</h1>
+        </motion.a>
         <div className="project-contents">
           <motion.div
             className="project-top"
@@ -224,9 +227,8 @@ export default function ProjectChewout() {
             >
               <h1 className="project-notes">Notes</h1>
               <p className="notes">
-                This is a responsive site hosted on Vercel, written
-                primarily on Typescript on NextJS with blog data stored on
-                Prisma mySQL.
+                This is a responsive site hosted on Vercel, written primarily on
+                Typescript on NextJS with blog data stored on Prisma mySQL.
               </p>
             </motion.div>
             <motion.div

@@ -18,11 +18,13 @@
 .project-head {
   display: flex;
   flex-direction: row;
+  text-decoration: none;
 }
 
 .project-name {
   font-size: 1.5em;
   color: #102c57;
+  text-decoration: none;
 }
 
 .project-links {

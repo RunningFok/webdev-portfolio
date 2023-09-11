@@ -162,15 +162,18 @@ export default function ProjectKannaKitchen() {
   return (
     <section>
       <div className="project" id="kannaKitchen">
-        <motion.h1
+        <motion.a
           ref={textRef}
-          className="project-name"
+          className="project-head"
           initial={"hidden"}
           animate={titleControl}
           variants={titleVariants}
+          href="https://kanna-kitchen.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          #3 Kanna Kitchen
-        </motion.h1>
+          <h1 className="project-name">#3 Kanna Kitchen</h1>
+        </motion.a>
         <div className="project-contents">
           <motion.div
             className="project-top"
@@ -214,8 +217,8 @@ export default function ProjectKannaKitchen() {
             >
               <h1 className="project-notes">Notes</h1>
               <p className="notes">
-                This is a simple responsive site written with Typescript on NextJS, it
-                is hosted on Vercel with store data on mongoDB.
+                This is a simple responsive site written with Typescript on
+                NextJS, it is hosted on Vercel with store data on mongoDB.
               </p>
             </motion.div>
             <motion.div

@@ -166,15 +166,19 @@ export default function ProjectGoodKick() {
   return (
     <section>
       <div className="project" id="goodKick">
-        <motion.div
+        <motion.a
           ref={textRef}
           className="project-head"
           initial={"hidden"}
           animate={titleControl}
           variants={titleVariants}
+          href="https://goodkick-azure.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          
         >
           <h1 className="project-name">#1 GoodKick</h1>
-        </motion.div>
+        </motion.a>
         <div className="project-contents">
           <motion.div
             className="project-top"

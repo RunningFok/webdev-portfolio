@@ -10,6 +10,8 @@ import {
   Javascript,
   Python,
   React,
+  NodeJS,
+  Github,
   Vite,
   Nextjs,
   Firebase,
@@ -24,6 +26,7 @@ import {
   Vercel,
   Netlify,
   Stripe,
+  Hardhat,
 } from "./ProgramIcons";
 
 const aboutVariants: Variants = {
@@ -98,6 +101,8 @@ export default function About() {
     <Solidity />,
     <React />,
     <Vite />,
+    <NodeJS />,
+    <Github />,
     <Nextjs />,
     <GoogleCloud />,
     <Vercel />,
@@ -106,6 +111,7 @@ export default function About() {
     <Prisma />,
     <MongoDB />,
     <MySQL />,
+    <Hardhat />,
   ];
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
@@ -150,10 +156,6 @@ export default function About() {
         in a team has allowed me to gain insight into the needs of individuals
         and how to effectively work towards shared objectives.
         
-        <br />
-        <br />
-        Hello 👋🏼 Yukiko Kanna, who is my sweet babaye and not an imaginary
-        monkey 🐒.
       </motion.p>
       <motion.div
         className="programs"
