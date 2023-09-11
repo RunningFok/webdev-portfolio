@@ -538,7 +538,7 @@ export const Github = () => {
 
 export const Hardhat = () => {
   return (
-    <svg
+    <motion.svg
       xmlns="http://www.w3.org/2000/svg"
       className="icon"
       variants={iconVariants}
@@ -593,7 +593,7 @@ export const Hardhat = () => {
           points="154.980462 84.0848076 127.988929 40.4236787 127.988929 40.4236787 127.988929 68.4731552 127.988929 68.4731552 127.988929 99.6852648 154.980462 84.07921 154.980462 84.07921"
         />
       </g>
-    </svg>
+    </motion.svg>
   );
 };
 
