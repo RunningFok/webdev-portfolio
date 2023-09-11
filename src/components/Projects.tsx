@@ -5,6 +5,7 @@ import ProjectChewout from "./ProjectChewout";
 import ProjectGoodKick from "./ProjectGoodKick";
 import ProjectKannaKitchen from "./ProjectKannaKitchen";
 import "./projects.scss";
+import ProjectForEverActive from "./ProjectForEverActive";
 
 const projectsTitleVariants: Variants = {
   hidden: { opacity: 0, x: "-100%" },
@@ -48,6 +49,7 @@ export default function Projects() {
       <ProjectGoodKick />
       <ProjectChewout />
       <ProjectKannaKitchen />
+      <ProjectForEverActive />
     </div>
   );
 }

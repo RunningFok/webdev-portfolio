@@ -15,13 +15,20 @@
   height: 90vh;
 }
 
+#forEver {
+  height: 30vh;
+}
+
 .project-head {
   display: flex;
   flex-direction: row;
+  width: max-content;
   text-decoration: none;
 }
 
 .project-name {
+  width: max-content;
+  height: min-content;
   font-size: 1.5em;
   color: #102c57;
   text-decoration: none;
