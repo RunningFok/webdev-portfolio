@@ -1,6 +1,14 @@
 import { useEffect, useRef } from "react";
 import { motion, useAnimation, useInView, Variants } from "framer-motion";
 import "./project.scss";
+import {
+  GraphQL,
+  Hydrogen,
+  Remix,
+  Shopify,
+  Tailwind,
+  Typescript,
+} from "./ProgramIcons";
 
 const titleVariants: Variants = {
   hidden: { opacity: 0, x: "-100%" },
@@ -33,6 +41,22 @@ const descriptionVariants: Variants = {
     },
   },
 };
+const techsVariants: Variants = {
+  hidden: { opacity: 0, x: "-100%" },
+  visible: {
+    opacity: 1,
+    x: 0,
+    transition: {
+      type: "spring",
+      stiffness: 120,
+      mass: 0.4,
+      damping: 10,
+      when: "beforeChildren",
+      delay: 0.8,
+      duration: 0.5,
+    },
+  },
+};
 
 export default function ProjectForEverActive() {
   const textRef = useRef(null);
@@ -40,11 +64,13 @@ export default function ProjectForEverActive() {
 
   const titleControl = useAnimation();
   const descriptiontControl = useAnimation();
+  const techControl = useAnimation();
 
   useEffect(() => {
     if (isInView) {
       titleControl.start("visible");
       descriptiontControl.start("visible");
+      techControl.start("visible");
     }
   }, [isInView]);
 
@@ -72,6 +98,21 @@ export default function ProjectForEverActive() {
             >
               Ultra Soft Activewear Coming Soon!
             </motion.p>
+            <motion.div
+              variants={techsVariants}
+              initial={"hidden"}
+              animate={techControl}
+            >
+              <h1 className="techs-used">Techs Used</h1>
+              <div className="project-techs">
+                <Typescript />
+                <Remix />
+                <Hydrogen />
+                <GraphQL />
+                <Shopify />
+                <Tailwind />
+              </div>
+            </motion.div>
           </div>
         </div>
       </div>

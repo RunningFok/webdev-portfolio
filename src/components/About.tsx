@@ -14,6 +14,8 @@ import {
   Github,
   Vite,
   Nextjs,
+  Remix,
+  Hydrogen,
   Firebase,
   MySQL,
   MongoDB,
@@ -26,6 +28,7 @@ import {
   Prisma,
   Vercel,
   Netlify,
+  Shopify,
   Stripe,
   Hardhat,
 } from "./ProgramIcons";
@@ -93,6 +96,7 @@ const techVariants: Variants = {
 
 export default function About() {
   const programList = [
+    <Shopify />,
     <Stripe />,
     <Sass />,
     <Tailwind />,
@@ -103,6 +107,8 @@ export default function About() {
     <React />,
     <Vite />,
     <Nextjs />,
+    <Remix />,
+    <Hydrogen />,
     <NodeJS />,
     <Github />,
     <GoogleCloud />,
