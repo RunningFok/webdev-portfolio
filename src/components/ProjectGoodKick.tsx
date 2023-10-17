@@ -199,7 +199,7 @@ export default function ProjectGoodKick() {
               are able to login, search for products, add products to basket,
               pay for products and view previous orders.
               <br />
-              This is a responsive site written with Typescript on NextJS and
+              This is a responsive site written with Typescript on Next.js and
               hosted on Vercel. It fetches product data off an API and store
               with client order information on Firestore.
             </motion.p>

@@ -228,7 +228,7 @@ export default function ProjectChewout() {
               <h1 className="project-notes">Notes</h1>
               <p className="notes">
                 This is a responsive site hosted on Vercel, written primarily on
-                Typescript on NextJS with blog data stored on Prisma mySQL.
+                Typescript on Next.js with blog data stored on Prisma mySQL.
               </p>
             </motion.div>
             <motion.div

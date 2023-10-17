@@ -218,7 +218,7 @@ export default function ProjectKannaKitchen() {
               <h1 className="project-notes">Notes</h1>
               <p className="notes">
                 This is a simple responsive site written with Typescript on
-                NextJS, it is hosted on Vercel with store data on mongoDB.
+                Next.js, it is hosted on Vercel with store data on mongoDB.
               </p>
             </motion.div>
             <motion.div
