@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barriecito&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Handjet:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
 body {
   margin: 0px;
@@ -54,7 +55,7 @@ body {
   font-size: 0.8em;
   line-height: 1;
   color: #102c57;
-  font-family: monospace;
+  font-family: "Roboto Mono", monospace;
   margin: 0;
   // padding-bottom: 40%;
 }
@@ -67,7 +68,7 @@ body {
     font-size: 4em;
   }
   #job {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 }
 
@@ -79,6 +80,9 @@ body {
     font-size: 4em;
   }
   #job {
-    font-size: 1.5em;
+    font-size: 1.1em;
   }
 }
+
+
+
