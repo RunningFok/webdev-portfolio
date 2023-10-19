@@ -157,12 +157,12 @@ export default function About() {
         interactive websites that operate seamlessly on multiple platforms and
         devices.
         <br />
-        The prospect of undertaking new projects is appealing as there is always
-        new problems to solve and new skills to learn.
+        I find the idea of taking on new projects exciting, as it presents fresh
+        problems to solve and allows me to develop new skills
         <br />
-        Having had the opportunity to work with people and atheletic expierence
-        in a team has allowed me to gain insight into the needs of individuals
-        and how to effectively work towards shared objectives.
+        My experience working with teams, both in sports and professionally, has
+        given me valuable insight into the needs and objectives of individuals,
+        and how to work together effectively towards shared goals.
       </motion.p>
       <motion.div
         className="programs"
