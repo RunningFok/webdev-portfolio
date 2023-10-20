@@ -44,7 +44,7 @@ body {
 
 #adrianman-pic {
   // width: 20em;
-  padding: 0.5em;
+  // padding: 0.5em;
   transition: transform 1s;
   padding-top: 30vh;
 }
@@ -114,5 +114,21 @@ body {
   }
   #job {
     font-size: 1.1em;
+  }
+}
+
+@media only screen and (min-width: 1530px) {
+  #profile-pic {
+    width: 15em;
+  }
+  #adrianman-pic {
+    padding-top: 40vh;
+  }
+
+  #name {
+    font-size: 4.5em;
+  }
+  #job {
+    font-size: 1.2em;
   }
 }

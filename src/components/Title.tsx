@@ -81,7 +81,7 @@ const AdrianMan = () => {
       // height="200"
       version="1.1"
       // viewBox="0 0 806.667 800"
-      viewBox="0 0 800 600"
+      viewBox="0 0 800 640"
       id="adrianman-pic"
     >
       <g

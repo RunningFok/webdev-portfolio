@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
-
 body {
   margin: 0px;
   height: 100vh;
@@ -17,7 +16,7 @@ body {
 #hello {
   // font-family: "Barriecito", cursive;
   font-family: "Bungee Shade", sans-serif;
-  color: #202020;
+  color: #102c57;
   font-size: 2em;
   margin: 0;
 }
@@ -27,6 +26,7 @@ body {
   vertical-align: middle;
   font-size: 0.6em;
   line-height: 1.5;
+  // color: #202020;
   color: #102c57;
   // font-family: monospace;
   font-family: "Roboto Mono", monospace;

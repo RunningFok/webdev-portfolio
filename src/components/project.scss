@@ -6,19 +6,19 @@
   // padding-top: 10vh;
 }
 #goodKick {
-  height: 125vh;
-}
-
-#chewout {
   height: 110vh;
 }
 
+#chewout {
+  height: 90vh;
+}
+
 #kannaKitchen {
-  height: 100vh;
+  height: 85vh;
 }
 
 #forEver {
-  height: 40vh;
+  height: 30vh;
 }
 
 .project-head {
@@ -136,19 +136,19 @@
 
 @media only screen and (min-width: 1080px) {
   #goodKick {
-    height: 160vh;
+    height: 145vh;
   }
 
   #chewout {
-    height: 140vh;
+    height: 120vh;
   }
 
   #kannaKitchen {
-    height: 130vh;
+    height: 105vh;
   }
 
   #forEver {
-    height: 60vh;
+    height: 50vh;
   }
 
   .project-name {
@@ -266,19 +266,19 @@
     width: 30vw;
   }
   .project-description {
-    font-size: 1.2em;
+    font-size: 1em;
     color: #102c57;
   }
 
   .techs-used {
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
 
   .project-notes {
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
   .notes {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   .project-right {

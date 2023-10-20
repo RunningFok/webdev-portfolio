@@ -40,6 +40,7 @@
   // font-family: monospace;
   font-family: "Roboto Mono", monospace;
   font-size: 0.7em;
+  font-weight: 500;
   color: #102c57;
   text-decoration: none;
   border-style: none;
@@ -63,5 +64,11 @@
     padding-top: 1em;
     padding-left: 2em;
     padding-right: 2em;
+  }
+}
+@media only screen and (min-width: 1530px) {
+  .link {
+    font-size: 1.7em;
+    
   }
 }
