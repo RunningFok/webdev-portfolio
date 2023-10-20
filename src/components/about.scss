@@ -19,6 +19,7 @@ body {
   color: #102c57;
   font-size: 2em;
   margin: 0;
+  padding-bottom: 1em;
 }
 
 #description {
@@ -79,6 +80,10 @@ body {
   #about {
     height: 100vh;
     padding-top: 10vh;
+  }
+  #hello {
+    padding-bottom: 0;
+
   }
   #program-title {
     font-size: 1.2em;
