@@ -175,7 +175,7 @@ export default function About() {
           duration: 1,
         }}
       >
-        <h1 id="program-title">List of techs </h1>
+        <h1 id="program-title">Techs Used </h1>
         <div className="program-list">{programList}</div>
         <div className="program-list">{programList}</div>
       </motion.div>

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Barriecito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
 body {
   margin: 0px;
@@ -19,10 +20,11 @@ body {
 }
 
 .contact-button {
-  font-family: monospace;
+  // font-family: monospace;
+  font-family: "Roboto Mono", monospace;
   color: #102c57;
-  font-size: 2em;
-  font-weight: 550;
+  font-size: 1.6em;
+  font-weight: 900;
 }
 
 .contacts-section {
@@ -106,7 +108,7 @@ body {
   }
 
   .contact-button {
-    font-size: 3em;
+    font-size: 2em;
   }
   .contact-icon {
     width: 4em;
@@ -116,7 +118,7 @@ body {
 
 @media only screen and (min-width: 1530px) {
   .contact-button {
-    font-size: 3.5em;
+    font-size: 2.5em;
   }
   .contact-icon {
     width: 5em;

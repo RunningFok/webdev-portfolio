@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
 .footer {
   height: 20vh;
   width: 100%;
@@ -9,8 +11,9 @@
 .contact {
   display: flex;
   place-items: center;
-  font-family: monospace;
-  font-size: 1em;
+  // font-family: monospace;
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.8em;
   color: #eff5f5;
 }
 

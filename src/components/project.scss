@@ -1,22 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
 .project {
   font-family: monospace;
   // height: 100vh;
   // padding-top: 10vh;
 }
 #goodKick {
-  height: 120vh;
+  height: 125vh;
 }
 
 #chewout {
-  height: 95vh;
+  height: 110vh;
 }
 
 #kannaKitchen {
-  height: 90vh;
+  height: 100vh;
 }
 
 #forEver {
-  height: 30vh;
+  height: 40vh;
 }
 
 .project-head {
@@ -29,7 +31,8 @@
 .project-name {
   width: max-content;
   height: min-content;
-  font-size: 1.5em;
+  font-size: 1.2em;
+  font-family: "Roboto Mono", monospace;
   color: #102c57;
   text-decoration: none;
 }
@@ -56,12 +59,14 @@
 }
 
 .project-description {
-  font-size: 0.8em;
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.6em;
   line-height: 1.4;
   color: #102c57;
 }
 .project-notes {
-  font-size: 1em;
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.8em;
   color: #102c57;
   padding-top: 0.5em;
   margin: 0%;
@@ -70,13 +75,15 @@
 .notes {
   padding-top: 2%;
   margin: 0%;
-  font-size: 0.8em;
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.6em;
   line-height: 1.4;
   color: #102c57;
 }
 
 .techs-used {
-  font-size: 1em;
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.8em;
   color: #102c57;
   padding-top: 0.5em;
   margin: 0%;
@@ -129,15 +136,15 @@
 
 @media only screen and (min-width: 1080px) {
   #goodKick {
-    height: 140vh;
+    height: 160vh;
   }
 
   #chewout {
-    height: 120vh;
+    height: 140vh;
   }
 
   #kannaKitchen {
-    height: 110vh;
+    height: 130vh;
   }
 
   #forEver {
@@ -145,7 +152,7 @@
   }
 
   .project-name {
-    font-size: 2em;
+    font-size: 1.8em;
   }
   .project-contents {
     grid-template-columns: repeat(2, 1fr);
@@ -161,19 +168,19 @@
     padding-top: 0em;
   }
   .project-description {
-    font-size: 1em;
+    font-size: 0.8em;
     color: #102c57;
   }
 
   .techs-used {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   .project-notes {
-    font-size: 1.2em;
+    font-size: 1em;
   }
   .notes {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   .project-right {
@@ -246,7 +253,7 @@
 
 
   .project-name {
-    font-size: 2.5em;
+    font-size: 2em;
   }
   .project-links {
     width: 0;
