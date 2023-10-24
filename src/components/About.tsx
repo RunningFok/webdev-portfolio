@@ -151,14 +151,15 @@ export default function About() {
         initial={"hidden"}
         animate={contentControl}
       >
-        I build websites that provide a solution for a challenge.
+        I am a Hong Kong based developer, I enjoy exploring and channeling my
+        creativity into new projects.
         <br />
         As a developer, I am self-taught and specialize in constructing
-        interactive websites that operate seamlessly on multiple platforms and
-        devices.
+        interactive websites that provide a smooth user experience across
+        different devices.
         <br />
         I find the idea of taking on new projects exciting, as it presents fresh
-        problems to solve and allows me to develop new skills
+        problems to solve and allows me to develop new skills.
         <br />
         My experience working with teams, both in sports and professionally, has
         given me valuable insight into the needs and objectives of individuals,
