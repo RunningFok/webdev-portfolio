@@ -708,6 +708,8 @@ export const CSS = () => {
         viewBox="1 3 30 30"
         fill="none"
       >
+        <title>CSS3</title>
+
         <path d="M6 28L4 3H28L26 28L16 31L6 28Z" fill="#1172B8" />
         <path d="M26 5H16V29.5L24 27L26 5Z" fill="#33AADD" />
         <path
