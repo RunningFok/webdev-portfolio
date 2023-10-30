@@ -14,6 +14,7 @@ import {
   Nextjs,
   Vercel,
   ArrowLink,
+  FramerMotion,
 } from "./ProgramIcons";
 import "./project.scss";
 import monitorLanding from "../assets/kannaKitchen-monitor-landing.png";
@@ -208,6 +209,7 @@ export default function ProjectKannaKitchen() {
                 <Vercel />
                 <MongoDB />
                 <Tailwind />
+                <FramerMotion />
               </div>
             </motion.div>
             <motion.div

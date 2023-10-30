@@ -742,6 +742,33 @@ export const Github = () => {
   );
 };
 
+export const FramerMotion = () => {
+  return (
+    <a href="https://www.framer.com/motion/" target="_blank">
+      <motion.svg
+        xmlns="http://www.w3.org/2000/svg"
+        className="icon"
+        variants={iconVariants}
+        whileHover={"hover"}
+        viewBox="0 0 50 50"
+        version="1.1"
+        preserveAspectRatio="xMidYMid"
+      >
+        <title>Framer Motion</title>
+        <path
+          d="m47.3 3.7v21.8l-10.9 10.9-10.9 10.9-10.9-10.9 10.9-10.9v.1-.1z"
+          fill="#59529d"
+        />
+        <path d="m47.3 25.5v21.8l-10.9-10.9z" fill="#5271b4" />
+        <path
+          d="m25.5 25.5-10.9 10.9-10.9 10.9v-43.6l10.9 10.9z"
+          fill="#bb4b96"
+        />
+      </motion.svg>
+    </a>
+  );
+};
+
 export const Hardhat = () => {
   return (
     <a href="https://hardhat.org/" target="_blank">

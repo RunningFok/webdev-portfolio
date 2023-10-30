@@ -31,6 +31,7 @@ import {
   Shopify,
   Stripe,
   Hardhat,
+  FramerMotion,
 } from "./ProgramIcons";
 
 const aboutVariants: Variants = {
@@ -100,6 +101,7 @@ export default function About() {
     <Stripe />,
     <Sass />,
     <Tailwind />,
+    <FramerMotion />,
     <Typescript />,
     <Javascript />,
     <Python />,
