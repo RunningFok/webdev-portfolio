@@ -240,7 +240,7 @@ export default function ProjectGoodKick() {
                 <br />
                 Card Number: 4242 4242 4242 4242
                 <br />
-                Month: 04/24
+                Month: 04/32
                 <br />
                 CVC: 424
               </p>
