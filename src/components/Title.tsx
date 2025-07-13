@@ -455,7 +455,7 @@ export default function Title() {
         initial={"hidden"}
         animate={"visible"}
       >
-        Fullstack Developer
+        Software Developer
       </motion.h2>
     </div>
   );
