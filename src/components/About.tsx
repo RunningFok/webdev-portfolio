@@ -33,7 +33,11 @@ import {
   Hardhat,
   FramerMotion,
   HTML,
-  CSS
+  CSS,
+  PHP,
+  Laravel,
+  Docker,
+  Postman
 } from "./ProgramIcons";
 
 const aboutVariants: Variants = {
@@ -99,33 +103,38 @@ const techVariants: Variants = {
 
 export default function About() {
   const programList = [
-    <Shopify />,
     <Stripe />,
+    <GoogleCloud />,
+    <Postman />,
+    <Docker />,
+    <Github />,
+    <Vercel />,
+    <Netlify />,
+    <Typescript />,
+    <Javascript />,
+    <PHP />,
+    <Python />,
+    <Solidity />,
     <HTML />,
     <CSS />,
     <Sass />,
     <Tailwind />,
     <FramerMotion />,
-    <Typescript />,
-    <Javascript />,
-    <Python />,
-    <Solidity />,
     <React />,
     <Vite />,
     <Nextjs />,
     <Remix />,
     <Hydrogen />,
     <NodeJS />,
-    <Github />,
-    <GoogleCloud />,
-    <Vercel />,
-    <Netlify />,
-    <Firebase />,
-    <Prisma />,
-    <MongoDB />,
-    <MySQL />,
-    <GraphQL />,
+    <Laravel />,
     <Hardhat />,
+    <MySQL />,
+    <MongoDB />,
+    <Firebase />,
+    <GraphQL />,
+    <Prisma />,
+    <Shopify />,
+
   ];
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
