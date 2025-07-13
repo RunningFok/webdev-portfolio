@@ -166,20 +166,17 @@ export default function About() {
         initial={"hidden"}
         animate={contentControl}
       >
-        I am a Hong Kong based developer, I enjoy exploring and channeling my
-        creativity into new projects.
+        I am a software developer based in Hong Kong, specializing in creating robust and user-friendly web and mobile applications,
+        leveraging a diverse skill set that includes frontend and backend development, client management, and e-commerce solutions.
+        Having worked across various sectors including e-commerce, insurance, F&B, and government, I understand the unique challenges different sectors present.
         <br />
-        As a developer, I am self-taught and specialize in constructing
-        interactive websites that provide a smooth user experience across
-        different devices.
+        <br/>
+        Having transitioned from a unique background of competing and coaching in combat sports professionally for over 10 years, 
+        I bring a strong sense of discipline and work ethic into every project. 
+        These experiences have given me valuable skills in communication, relationship building, and adaptability. 
         <br />
-        I find the idea of taking on new projects exciting, as it presents fresh
-        problems to solve and allows me to develop new skills.
         <br />
-        My experience working with teams, both in sports and professionally, has
-        given me valuable insight into the needs and objectives of individuals,
-        and how to work together effectively towards shared goals.
-      </motion.p>
+        I am driven to use these qualities, alongside my growing technical expertise, to build impactful software solutions and contribute meaningfully to dynamic development teams.      </motion.p>
       <motion.div
         className="programs"
         variants={techVariants}
