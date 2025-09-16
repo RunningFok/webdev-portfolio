@@ -173,7 +173,7 @@ export default function ProjectKannaKitchen() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h1 className="project-name">#3 Kanna Kitchen</h1>
+          <h1 className="project-name">#4 Kanna Kitchen</h1>
         </motion.a>
         <div className="project-contents">
           <motion.div

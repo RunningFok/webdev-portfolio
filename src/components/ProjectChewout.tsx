@@ -180,7 +180,7 @@ export default function ProjectChewout() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h1 className="project-name">#2 Chewout</h1>
+          <h1 className="project-name">#3 Chewout</h1>
         </motion.a>
         <div className="project-contents">
           <motion.div
