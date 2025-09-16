@@ -4,8 +4,9 @@ import { motion, useAnimation, useInView, Variants } from "framer-motion";
 import ProjectChewout from "./ProjectChewout";
 import ProjectGoodKick from "./ProjectGoodKick";
 import ProjectKannaKitchen from "./ProjectKannaKitchen";
-import "./projects.scss";
 import ProjectForEverActive from "./ProjectForEverActive";
+import ProjectWordle from "./ProjectWordle";
+import "./projects.scss";
 
 const projectsTitleVariants: Variants = {
   hidden: { opacity: 0, x: "-100%" },
@@ -46,6 +47,7 @@ export default function Projects() {
       >
         Projects
       </motion.h1>
+      <ProjectWordle />
       <ProjectGoodKick />
       <ProjectChewout />
       <ProjectKannaKitchen />
