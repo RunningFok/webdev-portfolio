@@ -5,12 +5,16 @@
   // height: 100vh;
   // padding-top: 10vh;
 }
+
+#wordle{
+  height: 75vh;
+}
 #goodKick {
   height: 110vh;
 }
 
 #chewout {
-  height: 85vh;
+  height: 90vh;
 }
 
 #kannaKitchen {
@@ -135,6 +139,10 @@
 }
 
 @media only screen and (min-width: 1080px) {
+  #wordle {
+    height: 90vh;
+  }
+
   #goodKick {
     height: 145vh;
   }
@@ -235,6 +243,10 @@
 }
 
 @media only screen and (min-width: 1530px) {
+  #wordle {
+    height: 70vh;
+  }
+
   #goodKick {
     height: 100vh;
   }
