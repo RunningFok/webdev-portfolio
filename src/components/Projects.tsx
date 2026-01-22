@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react";
 import { motion, useAnimation, useInView, Variants } from "framer-motion";
 import ProjectChewout from "./ProjectChewout";
 import ProjectGoodKick from "./ProjectGoodKick";
-import ProjectKannaKitchen from "./ProjectKannaKitchen";
+// import ProjectKannaKitchen from "./ProjectKannaKitchen";
 import ProjectForEverActive from "./ProjectForEverActive";
 import ProjectWordle from "./ProjectWordle";
 import ProjectKohiStore from "./ProjectKohiStore";
