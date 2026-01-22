@@ -177,7 +177,7 @@ export default function ProjectGoodKick() {
           rel="noopener noreferrer"
           
         >
-          <h1 className="project-name">#2 GoodKick</h1>
+          <h1 className="project-name">#3 GoodKick</h1>
         </motion.a>
         <div className="project-contents">
           <motion.div

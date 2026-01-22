@@ -5,20 +5,23 @@
   // height: 100vh;
   // padding-top: 10vh;
 }
-
-#wordle{
+#kohiStore {
   height: 75vh;
 }
-#goodKick {
-  height: 110vh;
-}
 
-#chewout {
+#wordle{
+  height: 70vh;
+}
+#goodKick {
   height: 90vh;
 }
 
+#chewout {
+  height: 75vh;
+}
+
 #kannaKitchen {
-  height: 85vh;
+  height: 75vh;
 }
 
 #forEver {
@@ -139,6 +142,10 @@
 }
 
 @media only screen and (min-width: 1080px) {
+  #kohiStore {
+    height: 90vh;
+  }
+
   #wordle {
     height: 90vh;
   }
@@ -243,6 +250,10 @@
 }
 
 @media only screen and (min-width: 1530px) {
+  #kohiStore {
+    height: 80vh;
+  }
+
   #wordle {
     height: 70vh;
   }

@@ -175,7 +175,7 @@ export default function ProjectWordle() {
           rel="noopener noreferrer"
           
         >
-          <h1 className="project-name">#1 Wordle</h1>
+          <h1 className="project-name">#2 Wordle</h1>
         </motion.a>
         <div className="project-contents">
           <motion.div

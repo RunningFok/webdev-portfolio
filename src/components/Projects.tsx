@@ -6,6 +6,7 @@ import ProjectGoodKick from "./ProjectGoodKick";
 import ProjectKannaKitchen from "./ProjectKannaKitchen";
 import ProjectForEverActive from "./ProjectForEverActive";
 import ProjectWordle from "./ProjectWordle";
+import ProjectKohiStore from "./ProjectKohiStore";
 import "./projects.scss";
 
 const projectsTitleVariants: Variants = {
@@ -47,10 +48,11 @@ export default function Projects() {
       >
         Projects
       </motion.h1>
+      <ProjectKohiStore />
       <ProjectWordle />
       <ProjectGoodKick />
       <ProjectChewout />
-      <ProjectKannaKitchen />
+      {/* <ProjectKannaKitchen /> */}
       <ProjectForEverActive />
     </div>
   );
