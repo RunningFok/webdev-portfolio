@@ -172,7 +172,7 @@ export default function ProjectKohiStore() {
           initial={"hidden"}
           animate={titleControl}
           variants={titleVariants}
-          href="https://kohi-store-production-a2ab.up.railway.app/"
+          href="https://kohi-store.up.railway.app/"
           target="_blank"
           rel="noopener noreferrer"
           
@@ -229,7 +229,7 @@ export default function ProjectKohiStore() {
               animate={linksControl}
             >
               <motion.a
-                href="https://kohi-store-production-a2ab.up.railway.app/"
+                href="https://kohi-store.up.railway.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
